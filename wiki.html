@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <title>维基词条-郑常龙</title>
+    <link rel="stylesheet" href="wiki/wiki.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="wiki/wiki.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <a href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" target="_blank" class="wikiLogo"><img class="wikiLogo" src="wiki/wikiLogo.png" alt="wiki logo"></a>
+        <br>
+        <input type="text" name="srchIpt" id="srchIpt" class="srchIpt">
+        <br>
+        <a href="javascript:void(0)" id="iptSrchBtn" class="srchBtn">搜索</a>
+        <a href="http://zh.wikipedia.org/wiki/Special:Random" id="rdmSrchBtn" target="_blank" class="srchBtn">随机</a>
+        <div class="srcCode">
+            <a class="srcLink" href="https://www.mike652638.com/wiki-code" target="_blank">查看源码
+        <span class="srcClose">⊕</span>
+        </a>
+            <br>
+            <a class="srcLink" href="https://www.mike652638.com/download" target="_blank">翻墙工具下载
+        <span class="srcClose">⊕</span>
+        </a>
+        </div>
+    </div>
+    <div class="resultPage">
+        <div class="iptPannel" id="iptPannel">
+            <a href="https://www.mike652638.com/projects/wiki.html">
+                <img src="wiki/wikiFont.png" alt="wiki logo">
+            </a>
+            <input type="text" name="kywdIpt" class="kywdIpt" id="kywdIpt">
+            <input type="button" name="kywdBtn" value="搜索" class="kywdBtn" id="kywdBtn">
+        </div>
+        <!-- <div class="spinnerWrap" id="spinnerWrap">
+            <div class="spinner" id="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <div class="spinnerNote">正在从维基百科获取数据, 请稍后 ...
+            </div>
+        </div> -->
+        <div class="resultList" id="resultList">
+        </div>
+        <button class="loadMore" id="autoLoad">开启自动加载</button>
+        <button class="loadMore" id="loadMore">↓↓ 加载更多 ↓↓ </button>
+    </div>
+    <ul class="srchRelative" id="srchRelative">
+        <li id="rel0" class="rel"></li>
+        <li id="rel1" class="rel"></li>
+        <li id="rel2" class="rel"></li>
+        <li id="rel3" class="rel"></li>
+        <li id="rel4" class="rel"></li>
+    </ul>
+    <div id="loaderWrap" class="loaderWrap">
+        <div id="loader_1" class="loader"></div>
+        <div id="loader_2" class="loader"></div>
+        <div id="loader_3" class="loader"></div>
+        <div id="loader_4" class="loader"></div>
+        <div id="loader_5" class="loader"></div>
+        <div id="loader_6" class="loader"></div>
+        <div id="loader_7" class="loader"></div>
+        <div id="loader_8" class="loader"></div>
+    </div>
+    <div id="loaderNote" class="loaderNote">
+        正在从服务器请求数据, 请稍后 ...
+        <br>
+        <br> 如果数据请求时间过长, 则说明您可能被墙咯, 可以<a target="_blank" href="https://www.mike652638.com/download">点我下载翻墙工具</a>尝试科学上网哦 ...
+    </div>
+</body>
+
+</html>
