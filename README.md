@@ -37,6 +37,6 @@ Any issues or bugs report are always welcome, meaningful commits will be much ap
 
 5. 这个小页面运用了CSS的媒体查询及jQuery的$().css()方法, 尽可能做到对不同平台不同尺寸屏幕的兼容(已在Chrome浏览器的开发者模式中模拟测试); 
 
-6. Considering the special restrictions to wikipedia by GFW in China mainland, a link to downloadable VPN tool (Shadowsocks with valid account I bought myself) was added to the demo, you may find the link at the top-right corner of the main page, the confirm window after ajax failed or in the loading animation tips ...
+6. 考虑到中国大陆特殊的网络限制, 本页面用到的维基接口可能无法顺利调用, 因此我在页面(主页右上角, ajax返回超时的确认框以及加载提示信息中)置入了科学上网工具下载链接(内含SS和个人购买的有效账号);
 
 这个小页面是我自学前端时实践的一个小项目, 实现起来并不难, 您可以进入<a target="_blank" href = "https://www.mike652638.com/demo/wiki.html">我的网站DEMO展示页</a>查看在线效果, 随时欢迎您提出问题建议或BUG反馈 :) <br>
