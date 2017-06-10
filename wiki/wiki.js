@@ -21,8 +21,8 @@ function getWiki() {
         data: {
             action: "query",
             list: "search",
-            srsearch: keyword,
             format: "json",
+            srsearch: keyword,
             sroffset: resultNum
         },
         dataType: "jsonp",
@@ -45,7 +45,7 @@ function getWiki() {
                     //console.log(responseData.query.search[1].snippet);
                     for (var i in results) {
                         showResults(results[i].title, results[i].snippet, results[i].size, results[i].wordcount, results[i].timestamp, resultNum, i);
-                    //console.trace("results[i] = " + results[i]);
+                        //console.trace("results[i] = " + results[i]);
                     }
                     isSrchBtnPressed = "no";
                 } else {
@@ -67,7 +67,7 @@ function getWiki() {
             showConfirm();
         }
     });
-//console.log("getWiki Done!");
+    //console.log("getWiki Done!");
 }
 
 //维基百科API返回的JSON数据是Unicode编码的, 需要先解码再提取数据
@@ -84,7 +84,7 @@ function showError(keyword) {
 function showConfirm() {
     var msg = confirm('抱歉, 无法从维基百科服务器获取信息, 您可能被墙了, 点击下方"确定"按钮可下载翻墙工具"科学上网"...');
     if (msg === true) {
-        window.open('https://www.mike652638.com/download', 'newwindow');
+        window.open('http://pan.baidu.com/s/1c28FK9U', 'newwindow');
     }
 }
 
@@ -255,7 +255,7 @@ $(document).ready(function() {
             /**存在一个BUG: 主页搜索框输入文字会开启联想功能, 回车键同样会触发oninput事件, 下面是不得已的方法**/
             setTimeout(function() {
                 $("#srchRelative").css("display", "none");
-            }, 1000);
+            }, 1500);
             if (isMainPage === "block") {
                 keyword = $("#srchIpt").val();
                 $("#kywdIpt").val(keyword);
@@ -305,9 +305,9 @@ $(document).ready(function() {
             isAutoLoad = "yes";
             prependLoader($("#autoLoad"));
             getWiki();
-        /*setTimeout(function() {
-            $("#autoLoad").css("display", "none");
-        }, 1000);*/
+            /*setTimeout(function() {
+                $("#autoLoad").css("display", "none");
+            }, 1000);*/
         } else {
             $("#autoLoad").html("<span style='color: #000'>开启自动加载</span>");
             isAutoLoad = "no";
