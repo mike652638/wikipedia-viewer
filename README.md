@@ -15,8 +15,8 @@ Main Functions/Features:
 
 6. Considering the special restrictions to wikipedia by GFW in China mainland, a link to downloadable VPN tool (Shadowsocks with valid account I bought myself) was added to the demo, you may find the link at the top-right corner of the main page, the confirm window after ajax failed or in the loading animation tips ...
 
-This Demo is very simple since it's one of my practicing projects when learning Front-end Developments from scratch, it can be viewed @ <a target="_blank" href = "https://www.mike652638.com/demo/wiki.html">My Website Demo Page</a><br>.
-Any issues or bugs report are always welcome, meaningful commits will be much appreciated :)
+This Demo is very simple since it's one of my practicing projects when learning Front-end Developments from scratch, it can be viewed @ <a target="_blank" href = "https://www.mike652638.com/demo/wiki.html">My Website Demo Page-Wiki</a><br>.
+Any issues or bugs report are always welcome, helpful commits will be much appreciated :)
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
