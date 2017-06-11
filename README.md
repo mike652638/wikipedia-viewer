@@ -5,7 +5,7 @@ A simple search shell by making use of AJAX to fetch data from MediaWiki API, in
 Main Functions/Features:
 1. Listening to "oninput" and "onclick" events of search box, once keyword changes detected or search box are clicked, a responsive window will appear just below the search box showing a list of relative searches, which are fetched and handled from mediaWiki server by using $.ajax() method;
 
-2. After selecting a keyword or phrase, click the "Search" button or hit the "Enter" key, you will find the demo changes from main page to the results page, with search box hovering on the top, total relative searches found and time spent, below which comes the main part, listing 10 relevant result pannels, in each pannel, there would be keyword phrase(with clickable link to wiki), short description, page info and link to contribution of phrase editing, etc.
+2. After selecting a keyword or phrase, click the "Search" button or hit the "Enter" key, you will find the demo changes from main page to the results page, with search box hovering on the top, index indicating total relative searches found and time spent, below which comes the main part, listing 10 relevant result pannels, in each pannel, there would be keyword phrase(with clickable link to wiki), short description, page info and link to contribution of phrase editing, etc.
 
 3. By default there are only 10 results shown after the searching process, under the 10th result pannel, there would be two optional buttons, "AUTO LOADING(when the page approaches the bottom each time)" or "CLICK TO LOAD MORE(the next 10 results)".
 
