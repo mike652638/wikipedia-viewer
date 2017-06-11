@@ -20,7 +20,7 @@ Any issues or bugs report are always welcome, helpful commits will be much appre
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#维基词条
+<h2>维基词条</h2>
 
 这个小页面是本人基于<a href = "https://www.freecodecamp.cn/challenges/build-a-wikipedia-viewer" target="_blank">FreeCodeCamp上的实践项目</a>完成的, 主要运用AJAX从维基百科开放的服务器接口获取数据信息实现关键词匹配和网页布局。<br>
 
