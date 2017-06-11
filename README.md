@@ -41,4 +41,4 @@ Any issues or bugs report are always welcome, meaningful commits will be much ap
 
 这个小页面是我自学前端时实践的一个小项目, 实现起来并不难, 您可以进入<a target="_blank" href = "https://www.mike652638.com/demo/wiki.html">我的网站DEMO展示页</a>查看在线效果, 随时欢迎您提出问题建议或BUG反馈 :) <br>
 
-<img src="https://www.mike652638.com/wp-content/uploads/2017/05/2017052810065878.png" alt="wikipedia-viewer-screenshot" />
+<a target="_blank" href = "https://www.mike652638.com/demo/wiki.html"><img src="https://www.mike652638.com/demo/wiki/screenshots/wikiScrSht.jpg" alt="wikipedia-viewer-screenshot" /></a>
