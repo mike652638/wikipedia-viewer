@@ -252,10 +252,8 @@ $(document).ready(function() {
             timeStart = Date.parse(new Date());
             resultsSum = null;
             resultNum = 0;
-            /**存在一个BUG: 主页搜索框输入文字会开启联想功能, 回车键同样会触发oninput事件, 下面是不得已的方法**/
-            setTimeout(function() {
-                $("#srchRelative").css("display", "none");
-            }, 1500);
+            /**存在一个BUG: 主页搜索框输入文字会开启联想功能, 回车键同样会触发oninput事件, 需要隐藏词条联想框**/
+            $("#srchRelative").css("display", "none");
             if (isMainPage === "block") {
                 keyword = $("#srchIpt").val();
                 $("#kywdIpt").val(keyword);
@@ -320,6 +318,9 @@ $(document).ready(function() {
         var windowHeight = $(this).height(),
             scrollTop = $(this).scrollTop(),
             scrollHeight = $(document).height();
+
+        /**检测到页面滑动时词条联想框应该隐藏掉, 因为它是绝对定位的, 会出现在页面半中央位置, 碍眼睛**/
+        $("#srchRelative").css("display", "none");
 
         if (isAutoLoad === "yes" && scrollHeight - scrollTop - windowHeight <= 200) {
             if (hasExed === "no") {
