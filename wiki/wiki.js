@@ -84,7 +84,7 @@ function showError(keyword) {
 function showConfirm() {
     var msg = confirm('抱歉, 无法从维基百科服务器获取信息, 您可能被墙了, 点击下方"确定"按钮可下载翻墙工具"科学上网"...');
     if (msg === true) {
-        window.open('http://pan.baidu.com/s/1c28FK9U', 'newwindow');
+        window.open('https://pan.baidu.com/s/1jHRlISY', 'newwindow');
     }
 }
 
